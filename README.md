@@ -2,4 +2,4 @@
 #### Техналогии
 - язык - программирования C#
 - база - данных SQLlite
-- orm - Entity framework
+- orm - Entity framework core
