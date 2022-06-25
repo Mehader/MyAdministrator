@@ -13,6 +13,11 @@ namespace MyAdministrator
         public DbSet<Subject> Subjects => Set<Subject>();
         public DbSet<History> History => Set<History>();
         public DbSet<StudentSubject> StudentsSubjects => Set<StudentSubject>();
+        
+        public Context()
+        {
+            Database.EnsureCreated();
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
