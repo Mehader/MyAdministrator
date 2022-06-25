@@ -8,3 +8,4 @@
 - язык - программирования C#
 - база - данных SQLlite
 - orm - Entity framework core
+- - Windows Forms
